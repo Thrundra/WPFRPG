@@ -1,0 +1,6 @@
+C:\Users\bgilbert\Documents\Repos\WPFRPG\WPFRPG\WPFRPG\Engine\bin\Debug\Engine.dll
+C:\Users\bgilbert\Documents\Repos\WPFRPG\WPFRPG\WPFRPG\Engine\bin\Debug\Engine.pdb
+C:\Users\bgilbert\Documents\Repos\WPFRPG\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.csprojAssemblyReference.cache
+C:\Users\bgilbert\Documents\Repos\WPFRPG\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+C:\Users\bgilbert\Documents\Repos\WPFRPG\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.dll
+C:\Users\bgilbert\Documents\Repos\WPFRPG\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.pdb
