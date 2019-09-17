@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFRPG"
         mc:Ignorable="d"
+        FontSize="11pt"
         Title="My WPG RPG" Height="768" Width="1024">
     <Grid>
         <Grid.RowDefinitions>
@@ -86,7 +87,8 @@
 
                     <TextBlock Grid.Row="2"
                                HorizontalAlignment="Center"
-                               Text="{Binding CurrentLocation.Description}"/>
+                               Text="{Binding CurrentLocation.Description}"
+                               TextWrapping="Wrap"/>
                 </Grid>
 
             </Border>
