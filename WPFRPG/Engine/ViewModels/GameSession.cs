@@ -28,5 +28,25 @@ namespace Engine.ViewModels
             CurrentLocation.YCoordinate = -1;
             CurrentLocation.Description = "this is your house";
         }
+
+        public void MoveNorth()
+        {
+
+        }
+
+        public void MoveWest()
+        {
+
+        }
+
+        public void MoveEast()
+        {
+
+        }
+
+        public void MoveSouth()
+        {
+
+        }
     }
 }
