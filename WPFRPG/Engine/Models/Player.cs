@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
@@ -71,12 +72,11 @@ namespace Engine.Models
             }
         }
 
-        /*
-        public event PropertyChangedEventHandler PropertyChanged;
+        public ObservableCollection<GameItem> Inventory { get; set; }
 
-        protected virtual void OnPropertyChanged(string propertyName)
+        public Player()
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }*/
+            Inventory = new ObservableCollection<GameItem>();
+        }
     }
 }

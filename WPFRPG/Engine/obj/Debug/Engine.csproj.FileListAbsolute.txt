@@ -11,3 +11,4 @@ G:\Repos\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
 G:\Repos\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.dll
 G:\Repos\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.pdb
 G:\Repos\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.g.resources
+C:\Users\bgilbert\Documents\Repos\WPFRPG\WPFRPG\WPFRPG\Engine\obj\Debug\Engine.g.resources
