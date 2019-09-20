@@ -24,6 +24,8 @@ namespace Engine.ViewModels
                 OnPropertyChanged(nameof(HasLocationWest));
                 OnPropertyChanged(nameof(HasLocationEast));
                 OnPropertyChanged(nameof(HasLocationSouth));
+
+                GivePlayerQuestAtLocation();
             }
         }
         public World CurrentWorld { get; set; }
@@ -113,12 +115,15 @@ namespace Engine.ViewModels
             }
         }
 
-        /*
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged(string propertyName)
+        private void GivePlayerQuestAtLocation()
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }*/
+            foreach(Quest quest in CurrentLocation.QuestsAvailableHere)
+            {
+                if(!CurrentPlayer.Quests.Any(q => q.PlayerQuest.ID == quest.ID))
+                {
+                    CurrentPlayer.Quests.Add(new QuestStatus(quest));
+                }
+            }
+        }
     }
 }
